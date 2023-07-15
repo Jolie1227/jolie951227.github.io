@@ -1,0 +1,67 @@
+p {
+    color: red;
+    font-size: 45px;
+    text-align: left;
+    margin: 0;
+  }
+html {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+	
+a,li {
+  font-size: 25px;
+}
+
+body {
+  /* The image used */
+  background-image: url("../images/lovepik-cute-doodle-background-image_401909818.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #2E4053;
+  text-shadow: 3px 3px 1px black;
+}
+
+#img1 {
+    position:absolute;
+    top:50%;
+    left:25%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+}
+
+#img2 {
+    position:absolute;
+    top:50%;
+    left:75%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+
+}
+
+#pop1{
+    display:inline;
+    font-size: 30px;
+    transform: translate(70%,50%);
+}
+#pop2{
+    display:inline;
+    font-size: 30px;
+    transform: translate(30%,50%);
+}
+.center{
+    display:flex;
+    justify-content: space-around;
+}
+.mt-100{
+    margin-top: 430px;
+}
